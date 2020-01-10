@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+  app:
+    name: thawing-ocean-68580
+  on:
+    repo: WhitePeachTea/whaterver-I-Wantgithu
+env:
+  global:
+  - secure: NAnnNQDiJRbcsSe++3ZJGjquNXOqtcODP9UvUunEhPTlxn1Ui86FV1Iu+yF38Lo0Fq70fyxVNdV7wFgfKz9OkfE5YneG9YHvMIg+Z6EW/zbTIDdRcCd68Su74Q4CGJUhYmcbAJ+UuF4y7S5gPBnrlkR7JXCbICruNP1ZEAfo2VJ/Q/UO0C3tZ9gHP2yrxecBtL9evE90w0BoN6m/XtpVIl8BsgaaSKm0UDF0i06BZw+kbE0vEPFIFRyvS99C6aJxAgSENi3B4k6Xt57z5zCt6RaWV+7Vtz94fKaneFOzIMOP+/qRtY45Xx8WjzpjmlZod4ASqMIBxNGwXnHnm7u3QHBZD5Tq2cX92/LQrnSJTjy67PkkTIkD4m5o8PwlyPAcLNhSSH8R/mIh0Zb+ljkViCPdJn8//ZDfO4HH92Kpf+cupSupgwO/YYP8zxu+3Gw9C6P1X5CqF3axArPhzKS0mO6daHmao4jpgg8QR2eL+uf6SIM63lbhczffGj8j7RDqN3384eZd4WeYVP7szQ/z9NfnVKbvZiGDcJrXQxnxADzvofowZI5AOBwclQ3K4Y4xHeS5uyDZyl3O1SR5fSBKZtMDH2GwHyoeDh5PjMWfWaU/GcESsGtrcgxK1lnojlzZiEi6v4n3b1vbrXiOIkyFuOHZw/2WulNPCk4dz5WXY/Q=
